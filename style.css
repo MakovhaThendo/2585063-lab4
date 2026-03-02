@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    text-align: center;
+}
+
+header{
+    padding: 20px;
+    background-color: brown;
+}
+.search-container{
+    margin: 25xp;
+}
+
+input{
+    padding: 20xp;
+    width: 200xp;
+}
+main{
+    max-height: 700xp;
+    padding:30xp;
+}
+
+button{
+    padding: 15xp;
+    cursor: pointer;
+}
+
+.spinner{
+    animation: spin is linear infinite;
+    margin: 25xp;
+    width:35xp auto;
+    height: 35xp;
+    border:5xp ;
+    border-top:5xp ;
+    border-radius: 50xp;
+}
+
+@keyframes spin{
+        0%{transform: rotate(360deg);}
+
+    100%{transform: rotate(360deg);}
+}
+.counry-card{
+    margin: 18xp;
+    padding:20xp;
+    width:280xp;
+    background: white;
+    border-radius: 8xp;
+}
+.boarder-grid{
+    margin: 20xp auto;
+    display :grid;
+    grid-template-columns: repeat(auto-fit,minmax(120xp,1fr));
+    gap:10xp;
+    width:80xp;
+
+}
+.boarder-grid img{
+    height:100%;
+    border:none;
+    border-radius: 10xp;
+}
+.error{
+    background-color:red;
+    margin: 30px;
+}
